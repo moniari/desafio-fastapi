@@ -1,8 +1,4 @@
-import os
-from pydantic_settings import BaseSettings, SettingsConfigDict
-
-DOTENV = os.path.join(os.path.dirname(__file__), "env")
-
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     API_VERSION: str = "v1"
@@ -10,9 +6,8 @@ class Settings(BaseSettings):
     PROJECT_NAME: str
     AUTH_USERNAME: str
     AUTH_PASSWORD: str
+    STOCK_API_URL: str
 
-    # model_config = SettingsConfigDict(env_file='../.env', env_file_encoding="utf-8")
-    
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"

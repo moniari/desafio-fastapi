@@ -1,0 +1,16 @@
+2024-03-03 15:35:53,093 LOG START
+2024-03-03 15:35:53,093 Operation failed
+2024-03-03 15:35:53,093 Operation completed successfully
+2024-03-03 15:35:53,093 Method POST
+2024-03-03 15:35:53,093 Params used aapl.us
+2024-03-03 15:35:53,093 Message Stock infos for aapl.us retrieved with success
+2024-03-03 15:35:53,093 LOG FINISHED
+2024-03-03 15:35:53,093 close.started
+2024-03-03 15:35:53,093 close.complete
+2024-03-03 15:35:53,094 LOG START
+2024-03-03 15:35:53,094 Operation failed
+2024-03-03 15:35:53,094 Operation completed successfully
+2024-03-03 15:35:53,094 Method POST
+2024-03-03 15:35:53,094 Params used aapl.us
+2024-03-03 15:35:53,094 Message Failed to access Stock service and fetch infos for aapl.us
+2024-03-03 15:35:53,094 LOG FINISHED
