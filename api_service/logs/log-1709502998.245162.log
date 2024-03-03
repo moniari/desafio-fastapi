@@ -1,0 +1,9 @@
+2024-03-03 18:56:38,245 LOG START
+2024-03-03 18:56:38,246 Operation failed
+2024-03-03 18:56:38,246 Operation completed successfully
+2024-03-03 18:56:38,246 Method POST
+2024-03-03 18:56:38,246 Params used AAPL.US
+2024-03-03 18:56:38,246 Message Stock infos for AAPL.US retrieved with success
+2024-03-03 18:56:38,247 LOG FINISHED
+2024-03-03 18:56:38,247 close.started
+2024-03-03 18:56:38,247 close.complete

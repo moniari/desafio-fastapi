@@ -8,8 +8,7 @@ router = APIRouter()
 @router.get("/")
 async def getStock(q: str):
   stockName = q.lower()
-                                  # f"api/v1/stock?stock={q}"
-  url = settings.STOCK_API_URL + f"/api/v1/stock?stock={q}"
+  url = settings.STOCK_API_URL + f"/api/v1/stock?stock={stockName}"
 
   try:
     async with httpx.AsyncClient() as client:
