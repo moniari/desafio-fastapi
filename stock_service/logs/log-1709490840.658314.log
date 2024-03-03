@@ -1,0 +1,14 @@
+2024-03-03 15:34:00,659 LOG START
+2024-03-03 15:34:00,659 Operation failed
+2024-03-03 15:34:00,659 Operation completed successfully
+2024-03-03 15:34:00,659 Method POST
+2024-03-03 15:34:00,660 Params used aapl.us
+2024-03-03 15:34:00,660 Message Stock infos for aapl.us retrieved with success
+2024-03-03 15:34:00,660 LOG FINISHED
+2024-03-03 15:35:04,593 LOG START
+2024-03-03 15:35:04,594 Operation failed
+2024-03-03 15:35:04,594 Operation completed successfully
+2024-03-03 15:35:04,594 Method POST
+2024-03-03 15:35:04,594 Params used aapl.us
+2024-03-03 15:35:04,594 Message Stock infos for aapl.us retrieved with success
+2024-03-03 15:35:04,595 LOG FINISHED

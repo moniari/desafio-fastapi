@@ -1,0 +1,40 @@
+2024-03-03 15:41:50,039 LOG START
+2024-03-03 15:41:50,040 Operation failed
+2024-03-03 15:41:50,041 Operation completed successfully
+2024-03-03 15:41:50,041 Method POST
+2024-03-03 15:41:50,042 Params used aapl.us
+2024-03-03 15:41:50,042 Message Stock infos for aapl.us retrieved with success
+2024-03-03 15:41:50,042 LOG FINISHED
+2024-03-03 15:41:53,189 close.started
+2024-03-03 15:41:53,195 close.complete
+2024-03-03 15:42:06,070 LOG START
+2024-03-03 15:42:06,071 Operation failed
+2024-03-03 15:42:06,072 Operation completed successfully
+2024-03-03 15:42:06,072 Method POST
+2024-03-03 15:42:06,072 Params used aapl.us
+2024-03-03 15:42:06,073 Message Failed to access Stock service and fetch infos for aapl.us
+2024-03-03 15:42:06,073 LOG FINISHED
+2024-03-03 15:43:28,111 load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-03-03 15:43:28,113 load_verify_locations cafile='/etc/ssl/certs/ca-certificates.crt'
+2024-03-03 15:43:29,176 connect_tcp.started host='localhost' port=7778 local_address=None timeout=5.0 socket_options=None
+2024-03-03 15:43:29,179 connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7fda740cd8a0>
+2024-03-03 15:43:29,181 send_request_headers.started request=<Request [b'GET']>
+2024-03-03 15:43:29,182 send_request_headers.complete
+2024-03-03 15:43:29,182 send_request_body.started request=<Request [b'GET']>
+2024-03-03 15:43:29,183 send_request_body.complete
+2024-03-03 15:43:29,183 receive_response_headers.started request=<Request [b'GET']>
+2024-03-03 15:43:30,613 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sun, 03 Mar 2024 18:43:28 GMT'), (b'server', b'uvicorn'), (b'content-length', b'64'), (b'content-type', b'application/json')])
+2024-03-03 15:43:30,614 HTTP Request: GET http://localhost:7778/api/v1/stock?stock=aapl.us "HTTP/1.1 200 OK"
+2024-03-03 15:43:30,614 receive_response_body.started request=<Request [b'GET']>
+2024-03-03 15:43:30,615 receive_response_body.complete
+2024-03-03 15:43:30,616 response_closed.started
+2024-03-03 15:43:30,617 response_closed.complete
+2024-03-03 15:43:44,181 LOG START
+2024-03-03 15:43:44,182 Operation failed
+2024-03-03 15:43:44,182 Operation completed successfully
+2024-03-03 15:43:44,182 Method POST
+2024-03-03 15:43:44,183 Params used aapl.us
+2024-03-03 15:43:44,183 Message Stock infos for aapl.us retrieved with success
+2024-03-03 15:43:44,184 LOG FINISHED
+2024-03-03 15:43:47,318 close.started
+2024-03-03 15:43:47,325 close.complete
